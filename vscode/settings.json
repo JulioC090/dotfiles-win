@@ -1,0 +1,109 @@
+{
+  "workbench.colorTheme": "Omni",
+  "codesnap.backgroundColor": "",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 20px 68px",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/{info,lfs,logs,refs,objects}/**",
+    ".git/{index,*refs,*HEAD}",
+    ".vscode",
+    ".vscode-insiders",
+    "package.json",
+    "pnpm-lock.json"
+  ],
+  "cSpell.userWords": [
+    "activedescendant",
+    "Autentication",
+    "axioshttp",
+    "clsx",
+    "codesnap",
+    "commitlint",
+    "consts",
+    "dayjs",
+    "encrypter",
+    "Encrypter",
+    "esbenp",
+    "esnext",
+    "fastify",
+    "Fastify",
+    "grnd",
+    "hasher",
+    "Hasher",
+    "Interactor",
+    "morpheus",
+    "nextauth",
+    "Omni",
+    "openai",
+    "rgba",
+    "signin",
+    "signup",
+    "tailwindcss",
+    "tauri",
+    "toor",
+    "trasparent",
+    "typecheck",
+    "usecases",
+    "workspaceid"
+  ],
+  "cSpell.language": "en,pt,pt_BR",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "editor.fontSize": 14,
+  "tabnine.experimentalAutoImports": true,
+  "material-icon-theme.files.associations": {
+    "tsconfig.alias.json": "tsconfig"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
