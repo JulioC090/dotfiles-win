@@ -1,8 +1,6 @@
 ﻿; Caminho completo da DLL (ajuste se estiver em outra pasta)
 dll := "VirtualDesktopAccessor.dll"
 
-
-
 SwitchDesktopByNumber(n) {
     global dll
     count := DllCall(dll "\GetDesktopCount", "Int")
@@ -16,3 +14,8 @@ SwitchDesktopByNumber(n) {
 !2::SwitchDesktopByNumber(2)
 !3::SwitchDesktopByNumber(3)
 !4::SwitchDesktopByNumber(4)
+!5::SwitchDesktopByNumber(5)
+!6::SwitchDesktopByNumber(6)
+!7::SwitchDesktopByNumber(7)
+!8::SwitchDesktopByNumber(8)
+!9::SwitchDesktopByNumber(9)\
