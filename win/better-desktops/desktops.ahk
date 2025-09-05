@@ -1,4 +1,4 @@
-﻿; Caminho completo da DLL (ajuste se estiver em outra pasta)
+﻿; Caminho até a DLL (ajuste se estiver em outra pasta)
 dll := "VirtualDesktopAccessor.dll"
 
 SwitchDesktopByNumber(n) {
@@ -9,7 +9,7 @@ SwitchDesktopByNumber(n) {
     }
 }
 
-; Hotkeys Alt+1 até Alt+4 (pode expandir até 9)
+; Hotkeys Alt+1 até Alt+9
 !1::SwitchDesktopByNumber(1)
 !2::SwitchDesktopByNumber(2)
 !3::SwitchDesktopByNumber(3)
@@ -18,4 +18,4 @@ SwitchDesktopByNumber(n) {
 !6::SwitchDesktopByNumber(6)
 !7::SwitchDesktopByNumber(7)
 !8::SwitchDesktopByNumber(8)
-!9::SwitchDesktopByNumber(9)\
+!9::SwitchDesktopByNumber(9)
